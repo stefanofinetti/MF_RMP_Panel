@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6e8dad7a-d037-46a4-bedb-f020a35a904d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,19 +76,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -107,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,14 +120,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -201,9 +203,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -322,6 +327,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simpanel:EC11EBB24C03"
 			(exclude_from_sim no)
@@ -688,6 +694,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simpanel:TL3240F260R"
 			(pin_names
@@ -863,28 +870,6 @@
 				)
 			)
 			(symbol "TL3240F260R_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -7.62 5.08) (xy -5.08 5.08)
@@ -897,9 +882,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -7.62 0)
+						(xy -5.08 5.08) (xy -5.08 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -935,7 +931,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy -5.08 2.54)
+						(xy -5.08 0) (xy -7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -957,9 +953,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 -6.604) (xy 1.27 -5.08)
+						(xy -1.27 -3.556) (xy -1.27 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -995,7 +1002,31 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -3.556) (xy -1.27 -5.08)
+						(xy -1.27 -6.604) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy 0.0635 -2.54) (xy 0.4445 -1.524) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -1019,7 +1050,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 6.35) (xy 0 3.81)
+						(xy 0.2794 -1.6764) (xy -0.8636 -3.0734)
 					)
 					(stroke
 						(width 0.254)
@@ -1031,7 +1062,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.2794 -1.6764) (xy -0.8636 -3.0734)
+						(xy 0.762 -2.0955) (xy 1.3335 -2.6035) (xy 1.7145 -1.524) (xy 0.762 -2.0955)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.27 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1067,18 +1110,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.556) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.524 -1.778) (xy 0.381 -3.175)
 					)
 					(stroke
@@ -1089,9 +1120,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 7.62 0)
+						(xy 5.08 5.08) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1127,19 +1169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 1.27 -5.08)
+						(xy 5.08 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1163,33 +1193,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -2.032) (xy 0.0635 -2.54) (xy 0.4445 -1.524) (xy -0.508 -2.032)
+						(xy 7.62 -5.08) (xy 1.27 -5.08)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.0955) (xy 1.3335 -2.6035) (xy 1.7145 -1.524) (xy 0.762 -2.0955)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1225,6 +1232,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1269,24 +1294,6 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 12.7 -5.08 180)
 					(length 5.08)
 					(name "~"
@@ -1305,12 +1312,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1382,7 +1394,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1394,7 +1406,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1425,12 +1437,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1521,6 +1538,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
