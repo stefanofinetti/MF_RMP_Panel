@@ -4307,7 +4307,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_dk_Tactile-Switches:1825910-6"
+		(symbol "RMP:1825910-6"
 			(pin_names
 				(offset 1.016)
 			)
@@ -8017,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SFLibrary:TQFP100-0.5-14X14MM"
+		(property "Footprint" "RMP:TQFP100-0.5-14X14MM"
 			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8910,7 +8910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_dk_Tactile-Switches:1825910-6")
+		(lib_id "RMP:1825910-6")
 		(at 46.99 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -8941,7 +8941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+		(property "Footprint" "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 			(at 52.07 137.16 0)
 			(hide yes)
 			(show_name no)

@@ -17932,7 +17932,7 @@
 			)
 		)
 	)
-	(footprint "SF Library:NMOSGDS_D2PAK_INF"
+	(footprint "RMP:NMOSGDS_D2PAK_INF"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "cb096da3-eccf-4dc6-926d-374ea2df2183")
@@ -18468,7 +18468,7 @@
 			(uuid "14f883f1-3770-46b9-a1c0-2bba90705d47")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/sfine/Documents/Kicad/9.0/3rdparty/3dmodels/IRLZ44NSTRLPBF.step"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/IRLZ44NSTRLPBF.step"
 			(offset
 				(xyz 0 -1 0)
 			)

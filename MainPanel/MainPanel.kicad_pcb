@@ -126,7 +126,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "035c17a6-7ca9-42d2-abde-ed18cb076f1c")
 		(at 44.925 64.4)
@@ -511,7 +511,7 @@
 			(uuid "65908547-9e87-4a3f-b66c-c761faafd908")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -523,7 +523,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "16d80e02-0d94-4336-b0ec-3a1b86098b0d")
 		(at 27.925 79.4)
@@ -908,7 +908,7 @@
 			(uuid "d53f28cd-cc38-48f2-a0e4-08b0adef7035")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -920,7 +920,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "383d5acc-c1eb-45c5-b3bc-a27b4a96e3d7")
 		(at 27.925 99.9)
@@ -1305,7 +1305,7 @@
 			(uuid "2b959196-db10-4e31-a9aa-9a30db24a957")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -1317,7 +1317,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "399b6a5f-d5bd-4ae7-a488-7520102163d3")
 		(at 61.925 99.9)
@@ -1702,7 +1702,7 @@
 			(uuid "18c7f956-7eee-4c3c-af66-457bd8fff974")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -1714,7 +1714,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "5735291b-321c-4f3a-b627-d34ddb490c99")
 		(at 112.925 99.9)
@@ -2099,7 +2099,7 @@
 			(uuid "d5551f00-a393-4f64-9a29-f8a653fc43f4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -2111,7 +2111,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "5acb6fec-87ec-45a3-9af9-8b8badecf212")
 		(at 61.925 79.4)
@@ -2496,7 +2496,7 @@
 			(uuid "3cf19713-e230-48d8-ba45-6178456daf8e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -2508,7 +2508,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "62470e4b-1cfd-46de-9291-2af4adb47c0c")
 		(at 27.925 64.4)
@@ -2893,7 +2893,7 @@
 			(uuid "953684b5-786c-46f1-a4c5-d030840b1038")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -2905,7 +2905,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "69cb8fcb-18c6-4348-8da4-f50470e68228")
 		(at 44.925 99.9)
@@ -3290,7 +3290,7 @@
 			(uuid "7573db5e-02e3-4911-a989-7db5e5eebc2a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -3402,7 +3402,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "7cdf3ced-8da7-4bb2-872c-7d1f13ffe332")
 		(at 61.925 64.4)
@@ -3787,7 +3787,7 @@
 			(uuid "0deb45e9-c502-4609-ab0e-de47ce4a3437")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -4217,7 +4217,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "9582bf71-f407-4fea-9239-a331b8737ba3")
 		(at 95.925 99.9)
@@ -4602,7 +4602,7 @@
 			(uuid "79baf8b0-0304-4b55-b8e8-057dbc75378f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -5329,7 +5329,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "b87b821c-2c38-4737-91ce-456da4f21bee")
 		(at 78.925 79.4)
@@ -5714,7 +5714,7 @@
 			(uuid "1bead2e6-d320-4e74-820b-323363b3579e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -5726,7 +5726,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "b917fba5-bb92-41b7-9d8c-3230313efe6e")
 		(at 79.925 42.4)
@@ -6111,7 +6111,7 @@
 			(uuid "a2c9146d-eb70-49e4-8aa5-07b2de0aa46b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -6123,7 +6123,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "ebe9de61-94c2-4fa0-b602-046db5b43feb")
 		(at 78.925 99.9)
@@ -6508,7 +6508,7 @@
 			(uuid "0fb82b4b-eb41-45e8-ac1a-12d0d0faeb86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -8495,7 +8495,7 @@
 			)
 		)
 	)
-	(footprint "Custom_Footprints:SOIC127P1032X265-24N"
+	(footprint "RMP:SOIC127P1032X265-24N"
 		(layer "B.Cu")
 		(uuid "6dc15b68-58da-480d-8304-ef78846b2a56")
 		(at 82.72 65.785)
@@ -8941,7 +8941,7 @@
 			(uuid "9cb91609-f64f-4e2c-a8fe-298370925d6b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/MAX7219CWGT.step"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/MAX7219CWGT.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10068,7 +10068,7 @@
 			)
 		)
 	)
-	(footprint "Custom_Footprints:SOIC127P1032X265-24N"
+	(footprint "RMP:SOIC127P1032X265-24N"
 		(layer "B.Cu")
 		(uuid "917f4e2d-5a58-483d-b4f0-fedf2a067482")
 		(at 48.38 82.415)
@@ -10514,7 +10514,7 @@
 			(uuid "61103146-3fe4-4dcb-ba7f-04810ab2e910")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/MAX7219CWGT.step"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/MAX7219CWGT.step"
 			(offset
 				(xyz 0 0 0)
 			)

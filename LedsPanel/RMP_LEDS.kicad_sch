@@ -968,7 +968,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IRLZ44N:IRLZ44NSTRLPBF"
+		(symbol "RMP:IRLZ44NSTRLPBF"
 			(pin_names
 				(offset 0.254)
 			)
@@ -11042,7 +11042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "IRLZ44N:IRLZ44NSTRLPBF")
+		(lib_id "RMP:IRLZ44NSTRLPBF")
 		(at 36.83 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -11075,7 +11075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SF Library:NMOSGDS_D2PAK_INF"
+		(property "Footprint" "RMP:NMOSGDS_D2PAK_INF"
 			(at 36.83 41.91 0)
 			(hide yes)
 			(show_name no)

@@ -2382,7 +2382,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "P78A05-1000:P78A05-1000"
+		(symbol "RMP:P78A05-1000"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2552,7 +2552,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_dk_Barrel-Power-Connectors:PJ-102A"
+		(symbol "RMP:PJ-102A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2581,7 +2581,7 @@
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
+			(property "Footprint" "RMP:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
 				(at 5.08 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5317,7 +5317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_dk_Barrel-Power-Connectors:PJ-102A")
+		(lib_id "RMP:PJ-102A")
 		(at 27.94 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
+		(property "Footprint" "RMP:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
 			(at 33.02 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8441,7 +8441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "P78A05-1000:P78A05-1000")
+		(lib_id "RMP:P78A05-1000")
 		(at 95.25 168.91 0)
 		(unit 1)
 		(body_style 1)
@@ -8472,7 +8472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:CONV_P78A05-1000"
+		(property "Footprint" "RMP:CONV_P78A05-1000"
 			(at 95.25 168.91 0)
 			(hide yes)
 			(show_name no)

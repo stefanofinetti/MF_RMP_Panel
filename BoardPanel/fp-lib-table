@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RMP")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/RMP.pretty")(options "")(descr "RMP custom footprints, shared by all boards"))
+)

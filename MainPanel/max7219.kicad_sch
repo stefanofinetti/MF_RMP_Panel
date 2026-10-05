@@ -1138,7 +1138,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SF Library:MAX7219CWGT"
+		(symbol "RMP:MAX7219CWGT"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5422,7 +5422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SF Library:MAX7219CWGT")
+		(lib_id "RMP:MAX7219CWGT")
 		(at 105.41 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -5455,7 +5455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:SOIC127P1032X265-24N"
+		(property "Footprint" "RMP:SOIC127P1032X265-24N"
 			(at 105.41 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +5650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SF Library:MAX7219CWGT")
+		(lib_id "RMP:MAX7219CWGT")
 		(at 228.6 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -5681,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:SOIC127P1032X265-24N"
+		(property "Footprint" "RMP:SOIC127P1032X265-24N"
 			(at 228.6 77.47 0)
 			(hide yes)
 			(show_name no)

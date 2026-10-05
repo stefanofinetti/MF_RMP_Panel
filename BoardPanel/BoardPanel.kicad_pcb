@@ -87,7 +87,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230"
+	(footprint "RMP:Switch_Tactile_THT_6x6mm_MJTP1230"
 		(layer "F.Cu")
 		(uuid "0206d6ac-77d0-4a21-9016-64af76ce221c")
 		(at 43.725 68.75)
@@ -472,7 +472,7 @@
 			(uuid "436c2b00-1de0-4733-8664-433c3ae2c980")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/1825910-6.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/1825910-6.STEP"
 			(offset
 				(xyz 3.2 -2.2 0)
 			)
@@ -2148,7 +2148,7 @@
 			(uuid "4a152b9d-7728-4f15-9fd5-1071b553aaaf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/UJ2-BH-1-TH.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/UJ2-BH-1-TH.STEP"
 			(offset
 				(xyz 14.5 -1 0.5)
 			)
@@ -8229,7 +8229,7 @@
 			)
 		)
 	)
-	(footprint "Custom_Footprints:CONV_P78A05-1000"
+	(footprint "RMP:CONV_P78A05-1000"
 		(layer "F.Cu")
 		(uuid "af3a3160-90eb-48d9-8777-95f132e59992")
 		(at 102.1425 46.275)
@@ -8502,7 +8502,7 @@
 			(uuid "f94468ec-c8a4-4d60-ac95-2568f1f2826d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/P78A05-1000.step"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/P78A05-1000.step"
 			(offset
 				(xyz 2.5 6.5 0.5)
 			)
@@ -9149,7 +9149,7 @@
 			)
 		)
 	)
-	(footprint "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
+	(footprint "RMP:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A"
 		(layer "F.Cu")
 		(uuid "bfe4436a-6172-46d1-92ba-2b46fc8cf3fb")
 		(at 55.55 85.35 180)
@@ -9542,7 +9542,7 @@
 			(uuid "b51d525e-fbec-42b0-b4dc-2bd10f236af4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/PJ-102A.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/PJ-102A.STEP"
 			(offset
 				(xyz 0 10.5 6.5)
 			)
@@ -10993,7 +10993,7 @@
 			)
 		)
 	)
-	(footprint "PCM_SFLibrary:TQFP100-0.5-14X14MM"
+	(footprint "RMP:TQFP100-0.5-14X14MM"
 		(layer "F.Cu")
 		(uuid "e3c500e7-4563-42aa-a6be-189064d77cca")
 		(at 64.875 55.05 45)
@@ -13552,7 +13552,7 @@
 			(uuid "cb87ffcb-b329-4c97-bd06-163f337246b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/ATMEGA2560-16AU--3DModel-STEP-56544.STEP"
+		(model "${KIPRJMOD}/../Libraries/3dmodels/ATMEGA2560-16AU--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
