@@ -336,7 +336,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5733,7 +5733,7 @@
 		(pin "3"
 			(uuid "16610b72-d9d3-42d9-ab79-f0debf2178b4")
 		)
-		(pin "5"
+		(pin "SH"
 			(uuid "1871072c-bff7-4a67-bbe3-29df2f1da559")
 		)
 		(pin "2"
@@ -7009,7 +7009,7 @@
 			(uuid "9693ea3a-eb70-4a91-b050-1ded2790202e")
 		)
 		(instances
-			(project ""
+			(project "BoardPanel"
 				(path "/1f613cd0-8dd8-4e8e-b115-6705bccd9540/16b22287-4db5-4f68-a9f8-22977648d35e"
 					(reference "J6")
 					(unit 1)
@@ -7484,7 +7484,7 @@
 			(uuid "0803e211-02bc-4f63-a033-03d5de211c47")
 		)
 		(instances
-			(project ""
+			(project "BoardPanel"
 				(path "/1f613cd0-8dd8-4e8e-b115-6705bccd9540/16b22287-4db5-4f68-a9f8-22977648d35e"
 					(reference "#PWR05")
 					(unit 1)
@@ -8552,7 +8552,7 @@
 			(uuid "e7d615d2-452f-4709-ae54-e1c3e7bcb5d4")
 		)
 		(instances
-			(project ""
+			(project "BoardPanel"
 				(path "/1f613cd0-8dd8-4e8e-b115-6705bccd9540/16b22287-4db5-4f68-a9f8-22977648d35e"
 					(reference "U2")
 					(unit 1)
