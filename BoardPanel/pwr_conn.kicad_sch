@@ -2531,7 +2531,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 2.54 180)
 					(length 5.08)
 					(name "+VOUT"
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Plug_USB2.0"
+		(property "Value" "USB_B"
 			(at 30.48 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)

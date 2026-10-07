@@ -1313,7 +1313,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -1331,7 +1331,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -1349,7 +1349,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -5.08 90)
 					(length 2.54)
 					(name "S"

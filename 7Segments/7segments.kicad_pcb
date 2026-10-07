@@ -1872,7 +1872,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_02x08_Top_Bottom_Shielded"
+		(property "Value" "Conn_02x08_Top_Bottom"
 			(at 1.27 -23.88 90)
 			(layer "B.Fab")
 			(uuid "a45f962c-ef17-46b2-a8ad-770df7aa79db")

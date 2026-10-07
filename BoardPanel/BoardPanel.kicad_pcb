@@ -1847,7 +1847,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Plug_USB2.0"
+		(property "Value" "USB_B"
 			(at 6.76 10.27 90)
 			(layer "F.Fab")
 			(uuid "53746527-436e-4a4b-a1f0-1c64628ff2ce")
