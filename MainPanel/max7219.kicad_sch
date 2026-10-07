@@ -3745,9 +3745,15 @@
 		(at 123.19 50.8)
 		(uuid "1b9c7b57-ed43-45a0-9512-ad00df25fac8")
 	)
-	(no_connect
-		(at 246.38 44.45)
-		(uuid "4660e5fe-abb5-4634-8010-6a50f4fc3474")
+	(label "ACTIVE_DIN"
+		(at 246.38 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b99157d5-a614-4816-9a9b-4e487ff21f83")
 	)
 	(no_connect
 		(at 246.38 62.23)
@@ -3985,7 +3991,7 @@
 		)
 		(uuid "04c3059c-cbc5-40f9-8cfc-d163369e8919")
 	)
-	(label "DIN"
+	(label "ACTIVE_DIN"
 		(at 87.63 35.56 180)
 		(effects
 			(font
@@ -4035,7 +4041,7 @@
 		)
 		(uuid "1ed53f0b-fd4d-499b-9937-291ecffae856")
 	)
-	(label "STBY_LOAD"
+	(label "LOAD"
 		(at 210.82 49.53 180)
 		(effects
 			(font
@@ -4075,15 +4081,9 @@
 		)
 		(uuid "2bf2f27b-5529-49e9-9e1e-86a9b790bb39")
 	)
-	(label "ACTIVE_LOAD"
-		(at 52.07 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30370517-da01-4bb6-8f97-39e70bf6be1b")
+	(no_connect
+		(at 52.07 171.45)
+		(uuid "4a4ef9cb-913b-4b68-96f1-0bdc1b8a34e2")
 	)
 	(label "DIN"
 		(at 210.82 46.99 180)
@@ -4245,7 +4245,7 @@
 		)
 		(uuid "69985a9b-6c2d-4940-a4a7-59bb329ab612")
 	)
-	(label "STBY_LOAD"
+	(label "LOAD"
 		(at 64.77 171.45 0)
 		(effects
 			(font
@@ -4605,7 +4605,7 @@
 		)
 		(uuid "ff1cfd28-e3c2-4e5b-b3bf-3ad257129234")
 	)
-	(label "ACTIVE_LOAD"
+	(label "LOAD"
 		(at 87.63 38.1 180)
 		(effects
 			(font
