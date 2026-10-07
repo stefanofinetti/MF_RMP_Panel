@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>SF RMP</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <LedModule Name="Display Freq" ModelType="0" DinPin="23" ClsPin="68" ClkPin="22" Brightness="12" NumModules="2" />
+  <Output Name="Dimmer" Pin="6" />
+  <Encoder Name="KHZ_Encoder" PinLeft="27" PinRight="25" EncoderType="2" />
+  <Encoder Name="MHZ_Encoder" PinLeft="28" PinRight="26" EncoderType="2" />
+  <Output Name="VHF1_LED" Pin="54" />
+  <Output Name="VHF2_LED" Pin="55" />
+  <Output Name="VHF3_LED" Pin="56" />
+  <Output Name="HF1_LED" Pin="57" />
+  <Output Name="HF2_LED" Pin="58" />
+  <Output Name="AM_LED" Pin="59" />
+  <Output Name="NAV_LED" Pin="60" />
+  <Output Name="VOR_LED" Pin="61" />
+  <Output Name="ILS_LED" Pin="62" />
+  <Output Name="MLS_LED" Pin="63" />
+  <Output Name="ADF_LED" Pin="64" />
+  <Output Name="BFO_LED" Pin="65" />
+  <Output Name="SEL_LED" Pin="66" />
+  <Button Name="XFER_BTN" Pin="29" />
+  <Button Name="VHF1_BTN" Pin="39" />
+  <Button Name="VHF2_BTN" Pin="15" />
+  <Button Name="VHF3_BTN" Pin="14" />
+  <Button Name="HF1_BTN" Pin="37" />
+  <Button Name="HF2_BTN" Pin="36" />
+  <Button Name="AM_BTN" Pin="35" />
+  <Button Name="NAV_BTN" Pin="34" />
+  <Button Name="VOR_BTN" Pin="33" />
+  <Button Name="ILS_BTN" Pin="32" />
+  <Button Name="MLS_BTN" Pin="31" />
+  <Button Name="ADF_BTN" Pin="30" />
+  <Button Name="BFO_BTN" Pin="40" />
+  <Button Name="PWR_BTN" Pin="41" />
+</Config>
